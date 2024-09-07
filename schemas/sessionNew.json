@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://proma.onrender.com/sessionNew.json",
+    "type": "object",
+    "properties": {
+      "userId": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "categoryId": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "required": ["userId", "categoryId"],
+    "additionalProperties": false
+  }

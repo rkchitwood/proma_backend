@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://proma.onrender.com/sessionUpdate.json",
+    "type": "object",
+   "properties": {
+    "startDatetime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "endDatetime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "categoryId": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "string",
+      "maxLength": 255
+    }
+  },
+    "required": [],
+    "additionalProperties": false
+  }

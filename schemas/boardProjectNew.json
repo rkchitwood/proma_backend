@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://proma.onrender.com/boardProjectNew.json",
+    "type": "object",
+    "properties": {
+    "name": {
+      "type": "string",
+      "maxLength": 35
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    }
+  },
+  "required": ["name", "priority"],
+  "additionalProperties": false
+  }

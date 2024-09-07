@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://proma.onrender.com/boardUserAdd.json",
+    "type": "object",
+    "properties": {
+      "userId": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "userId"
+    ]
+  }

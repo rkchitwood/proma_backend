@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://proma.onrender.com/userEditPm.json",
+    "type": "object",
+    "properties": {
+      "isPm": {
+        "type": "boolean",
+        "enum": [true]
+      }
+      
+    },
+    "additionalProperties": false,
+    "required": ["isPm"]
+  }
